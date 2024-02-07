@@ -1,0 +1,34 @@
+body {
+  display: block !important;
+  background-color: #242424;
+}
+
+.LayoutContainer {
+  height: 96vh;
+  resize: horizontal;
+  overflow: auto;
+  border: 1px solid #bdbdbd;
+  color: #bdbdbd;
+}
+
+.CodeEditor {
+  height: 90vh;
+}
+
+#LocalConsoleContainer {
+  scroll-behavior: auto;
+}
+
+.PanelHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .LeftHeaderBlock {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.RightHeaderBlock {
+  display: inline-block;
+} */
